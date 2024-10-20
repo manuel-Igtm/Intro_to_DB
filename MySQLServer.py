@@ -1,5 +1,5 @@
-import mysql.connector
-from mysql.connector import errorcode
+import mysql.connector # type: ignore
+from mysql.connector import errorcode # type: ignore
 
 def create_database():
     try:
